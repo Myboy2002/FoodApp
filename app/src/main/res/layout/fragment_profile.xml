@@ -55,11 +55,23 @@
         android:textColor="@android:color/black"
         android:textSize="16sp" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/edit_profile_button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:background="@drawable/login_bg_borderbox"
+        android:layout_marginVertical="20dp"
         android:text="Edit Profile" />
 
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/logout_button"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:background="@drawable/login_bg_borderbox"
+        android:layout_marginVertical="20dp"
+        android:text="Đăng xuất" />
 </LinearLayout>
